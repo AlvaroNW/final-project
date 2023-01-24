@@ -58,42 +58,47 @@ body{
     width: 100%;
     justify-content: space-between;
     align-items: center;
-}
-.nav-bar a{
-    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    color: ghostwhite;
-
-}
-.nav-bar a:hover{
-    color: #01133F;
 }
 .logo img{
     height: 120px;
     width:120px;
     margin-left: 10px;
+} 
+.topic-section{
+    height: 100%;
 }
-.link-list{
+.topic-section ul{
     display: flex;
-    align-items: center;
+}
+.topic-section li{
+    list-style: none;
+    padding: 10px;
+}
+.topic-section li a{
+    display: block;
+    text-decoration: none;
+    color: ghostwhite;
     font-size: 1.25em;
+    border: 2px solid ghostwhite;
+    border-radius: 8px;
+    padding: 10px;
     
-}
-.link{
-    margin: 10px;
-    border: ghostwhite 2px solid;
-    padding: 2px;
-    border-radius: 6px;
-    
-}
-.link:hover{
-    background-color: ghostwhite;
-    border: skyblue 2px solid;
-}
 
-
-.log-in{
+}
+.login-section{
+    height: 100%;
+}
+.login-section ul{
     display: flex;
-    margin-right: 10px;
+    
 }
-
+.login-section ul li{
+    display: block;
+    text-decoration: none;
+    color: ghostwhite;
+    border: 2px solid ghostwhite;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px;
+}
