@@ -44,4 +44,56 @@ table {
 }
 
 /* CSS Start */
+*{
+ font-family: 'Open Sans', sans-serif;
+
+}
+body{
+    background-color: #047EA6;
+}
+.nav-bar{
+    display: flex;
+    background-color: #01133F;
+    min-height: fit-content;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: ghostwhite;
+
+}
+.nav-bar a:hover{
+    color: #01133F;
+}
+.logo img{
+    height: 120px;
+    width:120px;
+    margin-left: 10px;
+}
+.link-list{
+    display: flex;
+    align-items: center;
+    font-size: 1.25em;
+    
+}
+.link{
+    margin: 10px;
+    border: ghostwhite 2px solid;
+    padding: 2px;
+    border-radius: 6px;
+    
+}
+.link:hover{
+    background-color: ghostwhite;
+    border: skyblue 2px solid;
+}
+
+
+.log-in{
+    display: flex;
+    margin-right: 10px;
+}
 
