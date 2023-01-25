@@ -83,8 +83,6 @@ body{
     border: 2px solid ghostwhite;
     border-radius: 8px;
     padding: 10px;
-    
-
 }
 .topic-section li a:hover{
     background-color: ghostwhite;
@@ -116,6 +114,61 @@ body{
     cursor: pointer;
     align-items: center;
   }
+  .content{
+    display: flex;
+    margin: 1em;
+    flex-grow: 2 1;
+  }
+  .articles{
+    width: 80%;
+  }
+  .article-1{
+   text-align: left;
+  }
+  .article-1 h1,
+  .article-2 h1{
+    margin: 1em;
+    font-size: 2.5em;
+    color: ghostwhite;
+    text-align: center;
+  }
+  .article-1,
+  .article-2{
+    font-size: 1em;
+    line-height:normal;
+    color:rgb(69, 10, 77);
+  }
+  .article-2{
+    text-align: left;
+    
+  }
+  .side-links{
+    text-align: center;
+    align-items: center;
+    width: 20%;
+  }
+  .side-links h3{
+    margin-top: 3em;
+    align-items: center;
+    font-size: 1.5em;
+    color: ghostwhite;
+  }
+  .side-links li{
+  margin-top: 20px;
+  text-decoration: underline;
+  
+  }
+  .side-links a{
+    color: #05CAF2;
+  }
+  footer h5{
+    margin: 2em;
+    color: ghostwhite;
+    font-weight: bold;
+  }
+
+
+  /* Hamburger menu*/
 .container{
     margin: 5px;
     display: none; 
@@ -139,6 +192,8 @@ body{
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }
+ 
+
 
 
 /* Media queries */
