@@ -1,6 +1,6 @@
 function myFunction(x) {
     x.classList.toggle("change");
-  }
+}
 
 
 const toggleButton = document.getElementsByClassName('container')[0]
